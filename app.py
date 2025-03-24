@@ -6,7 +6,7 @@ import joblib
 st.set_page_config(page_title="Iris Project")
 
 # Load the model
-model = joblib.load("/notebook/Iris-Deployment-Project/notebook/model.joblib")
+model = joblib.load("notebook/model.joblib")
 
 # Function to predict results
 def predict_results(model, sep_len, sep_wid, pet_len, pet_wid):
